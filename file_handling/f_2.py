@@ -1,0 +1,6 @@
+f = open("abc.txt")
+print(f.read())
+f.seek(0)
+print(f.readline())
+print(f.readline(), end='')
+f.close()
